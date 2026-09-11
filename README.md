@@ -2,50 +2,69 @@
 
 
 
-# [Project Name] 🎯
+# [The Gaslight Mirror] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Duo]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Anegha Manoj] - [Gov. RIT Kottayam]
+- Member 2: [Sreya Ann Mathew] - [Gov. RIT Kottayam]
 
 ### Project Description
-[2-3 lines about what your project does]
+[An OpenCV-powered web application that detects the user’s facial emotion in real time and responds with the complete opposite mood. It displays contrasting songs, emojis, funny videos, and playful roasts based on the detected emotion, turning every mood into an unexpected and entertaining experience.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[[People are suffering from the unbearable problem of having the correct mood.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[AI that detects your mood and immediately ruins it.
+
+Happy? Sad song.
+Sad? Happy song.
+Angry? Get roasted.
+
+Because your face clearly asked for this.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [Python, HTML, CSS, JavaScript]
+- [Flask]
+- [OpenCV, NumPy]
+- [VS Code, Git/GitHub, Web Browser]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
-For Software:
+For Software:* Captures live video through the webcam.
+* Uses OpenCV to detect and classify facial emotions.
+* Maps each detected emotion to its opposite mood.
+* Displays matching songs, emojis, funny videos, and playful roasts through the web interface.
+* Uses Flask to connect the emotion-detection system with the frontend.
+
 # Installation
-[commands]
+[git clone <your-github-repository-url>
+cd <project-folder>
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python app.py]
 
 # Run
-[commands]
+[source venv/bin/activate
+python app.py]
 
 ### Project Documentation
-For Software:
+For Software:* The application uses a webcam to capture the user’s face in real time.
+* OpenCV analyzes the facial expression and identifies the detected emotion.
+* The detected emotion is mapped to an opposite mood.
+* The web interface displays corresponding songs, emojis, funny videos, and playful roasts.
+* Flask handles communication between the emotion-detection backend and the web frontend.
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -61,14 +80,6 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Components](Add photo of your components here)
@@ -89,9 +100,16 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Anegha Manoj]: [ Implemented the web interface and application features.
+Worked on OpenCV-based emotion detection.
+ Integrated opposite-mood songs, emojis, videos, and roasts.
+ Handled testing and refinement of the application.]
+- [Sreya Ann Mathew]: [    Suggested the overall UI theme and visual concept.
+Planned the project workflow and feature structure.
+ Created the plan.md and SKILL.md files.
+ Developed and refined prompts used in Antigravity.
+ Contributed to testing, debugging, and final integration.]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
