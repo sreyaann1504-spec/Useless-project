@@ -81,10 +81,6 @@ For Software:* The application uses a webcam to capture the user’s face in rea
 *Add caption explaining your workflow*
 
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
@@ -96,7 +92,7 @@ For Software:* The application uses a webcam to capture the user’s face in rea
 [https://youtu.be/cs2mUn13BHM?si=4eFIbcEQYv3OsQDe]
 
 *Explain what the video demonstrates*
-
+The demo showcases the application detecting facial emotions in real time using OpenCV and responding with the opposite mood. It demonstrates different emotions triggering corresponding songs, emojis, funny videos, and playful roasts through the web interface.
 
 ## Team Contributions
 - [Anegha Manoj]: [ Implemented the web interface and application features.
