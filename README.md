@@ -93,11 +93,10 @@ For Software:* The application uses a webcam to capture the user’s face in rea
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[https://youtu.be/cs2mUn13BHM?si=4eFIbcEQYv3OsQDe]
+
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - [Anegha Manoj]: [ Implemented the web interface and application features.
