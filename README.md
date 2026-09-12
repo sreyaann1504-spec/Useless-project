@@ -67,25 +67,45 @@ For Software:* The application uses a webcam to capture the user’s face in rea
 * Flask handles communication between the emotion-detection backend and the web frontend.
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1290" height="684" alt="IMG_8934" src="https://github.com/user-attachments/assets/0492a271-9151-4688-9048-21d0a8ddb46f" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
+    Happy Mood Detected: The system detects a happy expression and triggers a sad reaction with a crying effect, sad cat video, and sarcastic roast.
 
-![Screenshot3](Add screenshot 3 here with proper name)
+<img width="1290" height="685" alt="IMG_8933" src="https://github.com/user-attachments/assets/2c8f5297-acd2-4d8d-a084-6a0f143e9042" />
+
 *Add caption explaining what this shows*
+    Neutral Mood Detected: The system identifies a neutral expression and activates a boredom reaction with a funny cat video and a playful message.
+
+<img width="1290" height="712" alt="IMG_8932" src="https://github.com/user-attachments/assets/3cd7cf88-bbb9-475a-ac5f-046557eaf5ee" />
+
+*Add caption explaining what this shows*
+    Development: Shows the project being developed and integrated using VS Code, Flask, and the project files.
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+<img width="1312" height="1199" alt="6E11E141-E7ED-49C7-A335-927D8E0BA2CA" src="https://github.com/user-attachments/assets/99349adc-23ad-4e67-9da7-cdd11c8a8340" />
+
 *Add caption explaining your workflow*
+The workflow starts with a live webcam feed, which is processed by OpenCV to detect the user’s facial emotion. The detected emotion is mapped to its opposite mood, triggering relevant songs, emojis, funny videos, and playful roasts, which are then delivered through the Flask-powered web interface.
 
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+<img width="1290" height="685" alt="IMG_8935" src="https://github.com/user-attachments/assets/d0f6d908-69fa-4960-8e3a-5613167cce47" />
+
 *Explain the final build*
+The Gaslight Mirror is the final interactive web application that turns facial emotion detection into an intentionally chaotic experience. The user enters the mirror, where their expression is analyzed in real time and the system responds with the opposite mood through visual effects, videos, and AI-generated verbal roasts.
+
+*  Real-time facial emotion detection
+*  Opposite-mood reactions based on detected emotion
+*  Funny videos, emojis & visual effects
+*  AI-powered verbal roasts/sabotage
+*  Boredom detection with a timed reaction
+*  Interactive dark/glassmorphism web interface
+*  Client-side processing + real-time responses
+
+In short: It looks at your face, understands your mood, and then chooses violence. 
 
 ### Project Demo
 # Video
